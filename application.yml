@@ -3,13 +3,7 @@ server:
 spring:
   application:
     name: configserver  
-  profiles:
-    active: native
-  cloud:
-     config:
-       server:
-           native:
-              searchLocations:  classpath:configs/
+
 spring:
   zipkin:
     baseUrl: http://localhost:9411/
