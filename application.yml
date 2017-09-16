@@ -12,10 +12,3 @@ spring:
   zipkin:
     baseUrl: http://localhost:7411/
     enabled: true
-
----
-spring:
-  profiles: docker
-  zipkin:
-    enabled: true
-    baseUrl: http://zipkinserver:6411/

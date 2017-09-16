@@ -7,8 +7,3 @@ turbine:
   clusterNameExpression: new String("default")
   appConfig: ORDERSERVICE  
   combineHostPort: true
----
-spring:
-  profiles: docker
-server:
-  port: 6082

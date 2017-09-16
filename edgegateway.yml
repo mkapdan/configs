@@ -6,9 +6,3 @@ server:
 zuul:
   debug:
     request: true
----
-spring:
-  profiles: docker
-server:
-  port: 6999
-  
