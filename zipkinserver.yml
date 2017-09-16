@@ -1,9 +1,4 @@
 spring:
-  profiles: test
+  profiles: dev
 server:
-  port: 7411
-----
-spring:
-  profiles: docker
-server:
-  port: 6411
+  port: 5411

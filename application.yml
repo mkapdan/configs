@@ -8,14 +8,7 @@ eureka:
       enabled: true
 
 spring:
-  profiles: test
+  profiles: dev
   zipkin:
-    baseUrl: http://localhost:7411/
+    baseUrl: http://localhost:5411/
     enabled: true
-
----
-spring:
-  profiles: docker
-  zipkin:
-    enabled: true
-    baseUrl: http://zipkinserver:6411/
