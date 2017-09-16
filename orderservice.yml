@@ -2,7 +2,9 @@ spring:
   profiles: test
 server:
   port: 7083
-----
+
+---
+
 spring:
   profiles: docker
 server:
