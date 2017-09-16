@@ -1,14 +1,8 @@
 spring:
-  profiles: test
+  profiles: prod
 server:
-  port: 7999
+  port: 4999
   
 zuul:
   debug:
     request: true
----
-spring:
-  profiles: docker
-server:
-  port: 6999
-  

@@ -1,14 +1,9 @@
 spring:
-  profiles: test
+  profiles: prod
 server:
-  port: 7082
+  port: 4082
   
 turbine:
   clusterNameExpression: new String("default")
   appConfig: ORDERSERVICE  
   combineHostPort: true
----
-spring:
-  profiles: docker
-server:
-  port: 6082

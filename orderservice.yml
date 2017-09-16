@@ -1,11 +1,4 @@
 spring:
-  profiles: test
+  profiles: prod
 server:
   port: 7083
-
----
-
-spring:
-  profiles: docker
-server:
-  port: 6083
