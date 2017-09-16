@@ -1,7 +1,5 @@
-spring:
-  profiles: prod
 server:
-  port: 4999
+  port: 3999
   
 zuul:
   debug:

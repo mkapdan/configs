@@ -1,4 +1,2 @@
-spring:
-  profiles: prod
 server:
-  port: 4411
+  port: 3411

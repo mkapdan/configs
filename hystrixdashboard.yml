@@ -1,7 +1,5 @@
-spring:
-  profiles: prod
 server:
-  port: 4082
+  port: 3082
   
 turbine:
   clusterNameExpression: new String("default")

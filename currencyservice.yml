@@ -1,4 +1,2 @@
-spring:
-  profiles: prod
 server:
-  port: 4084
+  port: 3084
