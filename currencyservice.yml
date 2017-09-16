@@ -5,6 +5,6 @@ server:
 
 ---
 spring:
-  profiles: test
+  profiles: docker
 server:
   port: 6084

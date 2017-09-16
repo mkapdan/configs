@@ -4,6 +4,6 @@ server:
   port: 7411
 ----
 spring:
-  profiles: test
+  profiles: docker
 server:
   port: 6411
