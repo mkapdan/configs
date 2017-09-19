@@ -11,3 +11,6 @@ spring:
   zipkin:
     baseUrl: http://localhost:3411/
     enabled: true
+  datasource:
+    username: dbuser
+    password: '{cipher}FKSAJDFGYOS8F7GLHAKERGFHLSAJ'
