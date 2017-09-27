@@ -1,0 +1,4 @@
+server:
+  port: 9970
+say:
+  hello: "Kaptan says hello"
