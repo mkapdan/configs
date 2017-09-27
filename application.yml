@@ -1,14 +1,3 @@
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:8761/eureka
-    healthcheck:
-      enabled: true
-
 spring:
-  profiles: prod
-  zipkin:
-    baseUrl: http://localhost:4411/
-    enabled: true
+  profiles:
+    active: prod
